@@ -12,7 +12,7 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component: Home
     },
@@ -28,6 +28,11 @@ export default new Router({
       path: '/other',
       name: 'other',
       component: () => import('./views/Other.vue')
+    },
+    {
+      path: '/',
+      name: 'sistySeconds',
+      component: () => import('./demo/sistySeconds.vue')
     }
   ]
 })
