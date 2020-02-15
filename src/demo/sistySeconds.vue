@@ -14,7 +14,6 @@ export default {
   },
   methods: {
     handleCode() {
-      console.log("-------------");
       if(!this.timer) {//保证按钮不被多次点击
         let BASE_SECONDS = 60;
         this.timer = setInterval(()=> {

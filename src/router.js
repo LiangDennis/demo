@@ -31,8 +31,8 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'sistySeconds',
-      component: () => import('./demo/sistySeconds.vue')
+      name: 'DemoIndex',
+      component: () => import('./demo/index.vue')
     }
   ]
 })
