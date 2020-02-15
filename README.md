@@ -1,29 +1,5 @@
-# my-project1
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+在src目录中
+  views代表的是之前的一些mock数据的操作，使用的mock.js
+  demo里面是一些小功能，记录在此，以便以后学习，温故而知新
+    60s的倒计时
+    图片压缩
