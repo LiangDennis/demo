@@ -10,3 +10,13 @@
   创建新的img标签，其属性src是base64
   img加载onload完成后，修改图片大小
   使用canvas将图片进行压缩
+
+### BFC
+  可以把 BFC 理解为一个封闭的大箱子，箱子内部的元素无论如何翻江倒海，都不会影响到外部。
+  ###只要元素满足下面任一条件即可触发 BFC 特性
+  body 根元素
+  浮动元素：float 除 none 以外的值
+  绝对定位元素：position (absolute、fixed)
+  display 为 inline-block、table-cells、flex
+  overflow 除了 visible 以外的值 (hidden、auto、scroll)
+  ####链接：https://www.jianshu.com/p/b034663019a9
