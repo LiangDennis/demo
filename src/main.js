@@ -11,6 +11,11 @@ import elementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(elementUI);
 
+import vueDebounce from 'vue-debounce'
+Vue.use(vueDebounce, {
+  lock: true
+})
+
 Vue.prototype.$axios = axios;
 
 Vue.config.productionTip = false
