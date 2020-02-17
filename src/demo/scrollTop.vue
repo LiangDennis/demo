@@ -26,7 +26,7 @@ export default {
   methods: {
     handleTop() {
       this.$refs.box.scrollTop = 0;//控制的是小盒子的返回顶部，没有动画效果
-      scrollTo(0);//控制整个页面的返回顶部，有动画效果
+      scrollTo(0);//控制整个页面中所有的滚动条的返回顶部，有动画效果
     }
   }
 }
