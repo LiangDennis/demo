@@ -20,3 +20,22 @@
   display 为 inline-block、table-cells、flex
   overflow 除了 visible 以外的值 (hidden、auto、scroll)
   ####链接：https://www.jianshu.com/p/b034663019a9
+
+### 返回顶部
+  使用ref绑定需要返回顶部的盒子
+  使用this.$refs.name.scrollTop = 0;返回顶部
+  直接使用scroll-to.js插件
+
+### vue transition标签的使用
+  为transition标签添加name属性
+  为name属性写css样式
+  样式格式如下（淡入淡出效果）
+    .name-enter, .name-leave-to {
+      opacity: 0
+    }
+    .name-leave, .name-enter-to {
+      opacity: 1
+    }
+    .name-enter-active, .name-leave-active {
+      transition: all .2s
+    }

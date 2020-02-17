@@ -5,7 +5,9 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/other">Other</router-link>
     </div>
-    <router-view/>
+    <transition name="scale">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -26,5 +28,14 @@
       color: #42b983;
     }
   }
+}
+.scale-enter, .scale-leave-to {
+  transform: scale(0)
+}
+.scale-leave, .scale-enter-to {
+  transform: scale(1)
+}
+.scale-enter-active, .scale-leave-active {
+  transition: all .2s
 }
 </style>
